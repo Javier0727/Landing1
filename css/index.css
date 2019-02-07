@@ -1,0 +1,668 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: aller; */
+}
+body{
+    font-family: aller;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.acomodonav{
+    margin-bottom: 2.2%;
+    margin-top: -.5%;
+}
+/* Colores */
+.rosa{
+    color: #DE006F;
+}
+.rojo{
+    color: #B3001C;
+}
+/* La imagen de la cabecera */
+.imagen{
+    height: 60vh;
+    background-image: url("../media/back.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* Brand de Inferox Academy de la parte superior izquierda */
+.brand{
+    height: auto;
+    width: 150px;
+    margin-left: 1%;
+    margin-top: 0px;
+    margin-bottom: -0.5%;
+    max-width: 100%;
+}
+hr{
+    border-color: #B3001C;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+hr.b{
+    border-color: #B3001C;
+    margin-top: 10px;
+    width: 60%;
+}
+/* Imagen de perfil */
+.imgperfil{
+    height: 190px;
+    width: 190px;
+    margin-top: -10%;
+    background-color: red;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.icono{
+    cursor: pointer;
+    margin-left: 97%;
+    padding-top: .5%;
+    color: white;
+    /* width: 300px;
+    height: auto;
+    padding-top: 50vh;
+    margin-left: -50%; */
+}
+.icono2{
+    cursor: pointer;
+    margin-left: 54%;
+    padding-top: 9%;
+    color: black;
+}
+.modalcabecera{
+    width: 38%;
+    height: auto;
+    padding: 2%;
+    margin-top: 20%;
+    background-color: white;
+}
+.btn-danger{
+    margin-top: 1%;
+    background: transparent;
+    color: black;
+}
+.lupa{
+    height: 50px;
+    width: 50px;
+    margin-left: 83%;
+    margin-top: -3.5%;
+}
+.notifi{
+    height: 50px;
+    width: 50px;
+    margin-left: 88%;
+    margin-top: -3.7%;
+}
+.minip{
+    height: 50px;
+    width: 50px;
+    margin-left: 93%;
+    margin-top: -3.7%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+}
+.lupacenter{
+    padding-top: 30%;
+}
+.iconosp{
+    width: 40px;
+    height: 40px;
+    background-image: url("../media/ubicacion .png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.iconosf{
+    width: 40px;
+    height: 40px;
+    background-image: url("../media/faceboom.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1%;
+}
+.iconost{
+    width: 40px;
+    height: 40px;
+    background-image: url("../media/twit.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1%;
+}
+.iconosl{
+    width: 40px;
+    height: 40px;
+    background-image: url("../media/linkd.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1%;
+}
+.datos{
+    margin-top: -5%;
+}
+.ftxt{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.f2txt{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.sobre{
+    width: 49.5%;
+    height: 200px;
+    float: left;
+}
+.objetivos{
+    width: 49.5%;
+    height: 200px;
+    float: right;
+}
+/* Seccion de estilos para proyectos */
+.proyecto{
+    width: 80%;
+    height: 300px;
+    border:1px solid #B3001C;
+}
+.cabep{
+    width: 100%;
+    height: 90px;
+    /* background-color: rgb(218, 218, 50); */
+    background-image: url("../media/back.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.perfp{
+    height: 90px;
+    width: 90px;
+    background-image: url("../media/Cesar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    margin-top: -12%;
+    border: 3px solid white;
+}
+.txtp{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.botonp{
+    background: linear-gradient(to bottom right, rgb(54, 51, 228), rgb(41, 228, 56));
+    border: 0px;
+    color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-top-left-radius: 10px;
+}
+.botonpp{
+    background: linear-gradient(to bottom right, rgb(54, 51, 228), rgb(41, 228, 56));
+    border: 0px;
+    color: white;
+    padding-left: .5%;
+    padding-right: .5%;
+    border-top-left-radius: 10px;
+}
+.mcreditos{
+    position: absolute;
+    top: 70.5%;
+    left: 77.5%;
+    height: 100px;
+    width: 150px;
+    border: 1px solid #B3001C;
+    border-top-left-radius: 15px;
+}
+.mhead{
+    height: 27px;
+    width: 100%;
+    background-color: #B3001C;
+    margin-bottom: 5%;
+    border-top-left-radius: 15px;
+    color: white;
+}
+.lapiz1{
+    height: 25px;
+    width: 25px;
+    background-image: url("../media/lapiz 1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lapiz1:hover{
+    height: 25px;
+    width: 25px;
+    background-image: url("../media/lapiz 2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*foter escritorio/////////////////////////////////////////////////////////////////////////////////////////////////*/
+@font-face {
+    font-family: anton;
+    src: url("../css/fuente/Anton-Regular.ttf");
+}
+@font-face {
+    font-family: oswald;
+    src: url("../css/fuente/Oswald-Bold.ttf");
+}
+@font-face {
+    font-family: aller;
+    src: url("../css/fuente/Aller_Bd.ttf");
+}
+footer{
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    height: 175px;
+    background-color: #CC0033;
+}
+.redes1{
+    width: 3%;
+    height: 35px;
+    margin-left: -6%;
+    margin-top: 2%;
+    font-size: 10px;
+}
+.redes2{
+    width: 3%;
+    height: 35px;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-size: 10px;
+}
+.redes3{
+    width: 3%;
+    height: 35px;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-size: 10px;
+}
+div.contacto{
+    font-size: 26px;
+    line-height: 19px;
+    margin-top: -2.5%;
+    text-align: justify;
+    font-family: oswald;
+    margin-left: 9%;
+    color: white;
+}
+div.contac{
+    line-height: 3%;
+    margin-top: 2%;
+    font-family: aller;
+    margin-left: -3%;
+    color: white;
+    font-size: 17px;
+}
+div.correo{
+    margin-left: 7.7%;
+    margin-top: 2.5%;
+}
+div.tel{
+    margin-left: 7.7%;
+    margin-top: 2.5%;
+    }
+div.tel2{
+    margin-left: 10%;
+    margin-top: 1.7%;	
+}
+div.privacidad{
+    line-height: 3%;
+    margin-top: -1%;
+    font-family: aller;
+    margin-left: 34%;
+    color: white;
+    font-size: 17px;
+}
+div.uno{
+    margin-left: 11%;
+    margin-top: 1.5%;	
+}
+div.dos{
+    margin-left: 9%;
+    margin-top: 2.5%;	
+}
+.color{
+    color: white;
+}
+.ablanco{
+    color: #FFFFFF;
+}
+div.estas{
+    font-size: 26px;
+    margin-top: -9%;
+    font-family: oswald;
+    margin-left: 71%;
+    color: white;
+}
+.registrate2{
+    width: 20%;
+    height: 35px;
+    margin-left: 71%;
+    margin-top: 2%;
+    font-size: 10px;
+}
+div.estasmovi{
+    display: none;
+}
+.registromovi{
+    display: none;
+}
+div.contactosmovi{
+    display: none;
+}
+div.contactanosmovi{
+    display: none;
+}
+div.correomovi{
+    display: none;
+}
+div.telmovi{
+    display: none;
+}
+div.tel2movi{
+    display: none;
+}
+.privacidadmovi{
+    display: none;
+}
+.terminosmovi{
+    display: none;
+}
+.redes1movi{
+    display: none;
+}
+.redes2movi{
+    display: none;
+}
+.redes3movi{
+    display: none;
+}
+div.red{
+    display: none;
+}
+.uno2{
+    display: none;
+}
+.dos2{
+    display: none;
+}
+/*desk1 termina el footer/////////////////////////////////////////////////////////////////////////////////////////////*/
+/* Pagina de datos ////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.datos{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+}
+.txtnuevos{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #B3001C;
+    background: transparent;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0px;
+}
+input[type=radio].separaradio{
+    margin-left: 25%;
+}
+.iconoface{
+    width: 12px;
+    height: 23px;
+    background-image: url("../media/face.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.iconotwitt{
+    width: 23px;
+    height: 20px;
+    background-image: url("../media/twi.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.iconoinsta{
+    width: 20px;
+    height: 20px;
+    background-image: url("../media/ins.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.iconolink{
+    width: 20px;
+    height: 20px;
+    background-image: url("../media/lin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* Pagina de datos ////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.acomodopag{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+.lineader{
+    border-right-color: #B3001C;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+.letra1{
+    font-family: oswald;
+}
+@media (max-width: 768px){
+    /**FOOTER MOVIL///////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	footer{
+        display: none;
+    }
+    div.fotermovil{
+        width: 100%;
+        height: 100%;
+        margin-top: 2%;
+        background-color: #CC0033;
+    }
+    div.estasmovi{
+        position: absolute;
+        font-size: 15px;
+        font-family: oswald;
+        color: white;
+        margin-top: 2%;
+        margin-left: -21%;
+    }
+    div.estasmovi{
+        display: inline;
+    }
+    .registromovi{
+        width: 40%;
+        height: 30px;
+        margin-top: 9%;
+    }
+    .registromovi{
+        display: inline;
+    }
+    div.contactosmovi{
+        color: white;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    div.contactanosmovi{
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 2%;
+        font-size: 15px;
+        font-family: oswald;
+    }
+    div.correomovi{
+        position: absolute;
+        margin-top: 7%;
+        margin-left: 2%;
+        font-size: 12px;
+        font-family: oswald;
+    }
+    div.telmovi{
+        position: absolute;
+        margin-top: 6%;
+        margin-left: 2%;
+        font-size: 12px;
+        font-family: oswald;
+    }
+    div.tel2movi{
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 7.9%;
+        font-size: 12px;
+        font-family: oswald;
+    }
+    div.contactosmovi{
+        display: inline;
+    }
+    div.contactanosmovi{
+        display: inline;
+    }
+    div.correomovi{
+        display: inline;
+    }
+    div.telmovi{
+        display: inline;
+    }
+    div.tel2movi{
+        display: inline;
+    }
+    .privacidadmovi{
+        position: absolute;
+        margin-top: -5%;
+        margin-left: -31%;
+    }
+    .terminosmovi{
+        position: absolute;
+        margin-top: -6%;
+        margin-left: 62%;
+    }
+    .uno2{
+        margin-top: 2%;
+        margin-left: 40%;
+        font-size: 12px;
+        font-family: oswald;
+    }
+    .dos2{
+        margin-top: 2%;
+        margin-left: 35%;
+        font-size: 12px;
+        font-family: oswald;
+    }
+    .redes1movi{
+        width: 10%;
+        height: 30px;
+        margin-top: -28%;
+        margin-left: 59%;
+    }
+    .redes2movi{
+        width: 10%;
+        height: 30px;
+        margin-top: -28%;
+        margin-left: 2%;
+    }
+    .redes3movi{
+        width: 10%;
+        height: 30px;
+        margin-top: -28%;
+        margin-left: 2%;
+    }
+    div.red{
+        margin-top: 2%;
+    }
+    .letra{
+        font-family: oswald;
+        font-size: 12px;
+    }
+    .privacidadmovi{
+        display: inline;
+    }
+    .terminosmovi{
+        display: inline;
+    }
+    .redes1movi{
+        display: inline;
+    }
+    .redes2movi{
+        display: inline;
+    }
+    .redes3movi{
+        display: inline;
+    }
+    .uno2{
+        display: inline;
+    }
+    .dos2{
+        display: inline;
+    }
+    /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .icono{
+        margin-left: 90%;
+        padding-top: 2%;
+    }
+    .modalcabecera{
+        width: 95%;
+        padding: 2%;
+        margin-top: 80%;
+        background-color: white;
+    }
+    .perfil{
+        height: 150px;
+        margin-top: -25%;
+    }
+    .imgperfil{
+        height: 150px;
+        width: 150px;
+        margin-top: -25%;
+    }
+    .lupa{
+        height: 50px;
+        width: 50px;
+        margin-left: 55%;
+        margin-top: -15%;
+    }
+    .notifi{
+        height: 50px;
+        width: 50px;
+        margin-left: 70%;
+        margin-top: -14%;
+    }
+    .minip{
+        height: 50px;
+        width: 50px;
+        margin-left: 85%;
+        margin-top: -14%;
+        border-radius: 50%;
+    }
+    .datos{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .mcreditos{
+        display: none;
+    }
+}

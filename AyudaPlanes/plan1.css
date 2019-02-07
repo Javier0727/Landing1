@@ -1,0 +1,543 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: anton;
+    src: url("../css/fuente/Anton-Regular.ttf");
+    }
+    @font-face {
+    font-family: oswald;
+    src: url("../css/fuente/Oswald-Bold.ttf");
+    }
+    @font-face {
+    font-family: aller;
+    src: url("../css/fuente/Aller_Bd.ttf");
+    }
+.cabecera{
+    height: 68vh;
+    width: auto;
+    background-image: url("../media2/NEW.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+h2{
+	color: white;
+	font-size: 1.5rem;
+	text-align: justify;
+	font-family: aller;
+}
+div.login {
+ 	position: absolute;
+    margin-left: 76%;
+	margin-top: 0%;
+    margin-right: -4%;
+	height: 15%;
+	font-size: 16px;
+	text-decoration: none;
+}
+		
+div.codigo{
+text-decoration: none;
+ position: absolute;
+    margin-left: 85.2%;
+	margin-top: 0%;
+    margin-right: -4%;
+	height: 15%;
+	font-size: 16px;
+	text-decoration: none;	
+	 
+ }
+.logoinf{
+    height: 100px;
+    width: 160px;
+    margin-top: 1%;
+    margin-left: 2%;
+    background-image: url("../media2/Academyblanco.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.home{
+    width: 10%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+.talent{
+    width: 20%;
+    height: auto;
+}
+.palde{
+    text-align: right;
+}
+.img5{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+}
+div.ideal1{
+    width: 100%;
+    height: 160px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-image: url("../media2/IDEAL.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.grandes{
+    width: 25%;
+    height: auto;
+    margin-bottom: 5%;
+}
+.descuentos{
+    width: 25%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.descuentos1{
+    width: 102%;
+    height: auto;	
+}
+.descuentos2{
+    width: 25%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.laletra1{
+    font-size: 20px;
+	font-family: aller;
+}
+div.texto{
+margin-left: 5%;
+margin-right: 5%;
+}
+.colorazul1{
+    color: #0000FF;
+    font-size: 18px;
+}
+.espaciadot{
+    margin-left: 1%;
+}
+.muestra1{
+    width: 49%;
+    height: 300px;
+}
+.pagos{
+    width: 15%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+/* /////////////////////////////////////////////////////////////// */
+/*foter escritorio*/
+  footer{
+  position: absolute;
+   margin-top: 50px;
+    width: 100%;
+    height: 175px;
+    background-color: #CC0033;
+}
+	.redes1{
+	width: 3%;
+	height: 35px;
+	margin-left: -6%;
+	margin-top: 2%;
+	font-size: 10px;
+	}
+	.redes2{
+	width: 3%;
+	height: 35px;
+	margin-left: 1%;
+	margin-top: 2%;
+	font-size: 10px;
+	}
+	.redes3{
+	width: 3%;
+	height: 35px;
+	margin-left: 1%;
+	margin-top: 2%;
+	font-size: 10px;
+	
+	}
+	
+div.contacto{
+	
+	font-size: 28px;
+    line-height: 19px;
+	margin-top: -2.5%;
+	text-align: justify;
+	font-family: oswald;
+	margin-left: 5%;
+	color: white;
+	
+}
+div.contac{
+    line-height: 3%;
+	margin-top: 2%;
+	font-family: aller;
+	margin-left: -3%;
+	color: white;
+	font-size: 22px;
+	}
+div.correo{
+	margin-left: 7.7%;
+	margin-top: 2.5%;
+}
+div.tel{
+margin-left: 7.7%;
+margin-top: 2.5%;
+	}
+div.tel2{
+margin-left: 10.6%;
+margin-top: 1.7%;	
+}
+
+
+div.privacidad{
+line-height: 3%;
+	margin-top: -1%;
+	font-family: aller;
+	margin-left: 32%;
+	color: white;
+	font-size: 22px;
+}
+div.uno{
+margin-left: 11%;
+margin-top: 1.5%;	
+}
+div.dos{
+margin-left: 9%;
+margin-top: 2.5%;	
+}
+.color{
+color: white;
+}
+.ablanco{
+color: #FFFFFF;}
+	
+
+div.estas{
+
+	font-size: 26px;
+	margin-top: -9%;
+	font-family: oswald;
+	margin-left: 71%;
+	color: white;
+}
+
+.registrate2{
+	width: 17%;
+	height: 35px;
+	margin-left: 72.5%;
+	margin-top: 2%;
+	font-size: 10px;
+	}
+div.estasmovi{
+display: none;
+}
+.registromovi{
+display: none;
+}
+div.contactosmovi{
+display: none;
+}
+div.contactanosmovi{
+display: none;
+}
+div.correomovi{
+display: none;
+}
+div.telmovi{
+display: none;
+}
+div.tel2movi{
+display: none;
+}
+.privacidadmovi{
+display: none;
+}
+.terminosmovi{
+display: none;
+}
+
+.redes1movi{
+display: none;
+}
+.redes2movi{
+display: none;
+}
+.redes3movi{
+display: none;
+}
+div.red{
+display: none;
+}
+.uno2{
+display: none;
+}
+.dos2{
+display: none;
+}
+/*desk1 termina el footer*/ /* /////////////////////////////////////////////////////////////// */
+.idealnmov{
+    display: none;
+}
+
+@media (max-width: 768px){
+
+   
+    .idealndesk{
+        display: none;
+    }
+    .idealnmov{
+        display: initial;
+    }
+    .cabecera{
+        height: 60vh;
+        width: auto;
+        background-image: url("../media2/new/new movil.png");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+	h2{
+	color: white;
+	font-size: 1rem;
+	text-align: justify;
+	font-family: aller;
+}
+div.login {
+ 	position: absolute;
+    margin-left: 58%;
+	margin-top: 1%;
+    margin-right: -4%;
+	height: 15%;
+	font-size: 16px;
+	text-decoration: none;
+}
+		
+div.codigo{
+text-decoration: none;
+ position: absolute;
+    margin-left: 71%;
+	margin-top: 1%;
+    margin-right: -4%;
+	height: 15%;
+	font-size: 16px;
+	text-decoration: none;	
+	 
+ }
+    .idealm{
+        width: 40%;
+        height: auto;
+        margin-top: 5%;
+    }
+    .idealm2{
+        width: 130%;
+        height: auto;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    .grandes{
+        width: 50%;
+    }
+    .img5{
+        width: 45%;
+        margin-left: 3%;
+    }
+    .img6{
+        width: 100%;
+        height: auto;
+    }
+    .img7{
+        width: 30%;
+        height: 62px;
+        background-image: url("../media2/new/h.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .img8{
+        width: 40%;
+        height: auto;
+    }
+    .img9{
+        width: 70%;
+        height: auto;
+    }
+    .descuentos{
+         width: 45%;
+    }
+    .descuentos2{
+        width: 50%;
+    }
+    .laletra1{
+        font-size: 14px;
+    }
+    .txtizquierda{
+        text-align: left;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .pagos{
+        width: 35%;
+    }
+/**FOOTER MOVIL*/
+	footer{
+	display: none; 
+	}
+	
+	div.fotermovil{
+	width: 100%;
+	height: 100%;
+	margin-top: 2%;
+	background-color: #CC0033;
+	}
+	div.estasmovi{
+	position: absolute;
+	font-size: 15px;
+	font-family: oswald;
+	color: white;
+	margin-top: 2%;
+	margin-left: -21%;
+	
+	}
+	div.estasmovi{
+	display: inline;
+	}
+	.registromovi{
+	width: 40%;
+	height: 30px;
+	margin-top: 9%;
+	}
+	.registromovi{
+display: inline;
+}
+
+div.contactosmovi{
+color: white;
+margin-top: 2%;
+margin-left: 2%;
+}
+div.contactanosmovi{
+position: absolute;
+margin-top: 5%;
+margin-left: 6%;
+font-size: 16px;
+font-family: oswald;
+}
+div.correomovi{
+position: absolute;
+margin-top: 7%;
+margin-left: 8%;
+font-size: 13px;
+font-family: oswald;
+
+}
+div.telmovi{
+position: absolute;
+margin-top: 6%;
+margin-left: 8%;
+font-size: 13px;
+font-family: oswald;
+
+}
+div.tel2movi{
+position: absolute;
+margin-top: 5%;
+margin-left: 13.9%;
+font-size: 13px;
+font-family: oswald;
+}
+div.contactosmovi{
+display: inline;
+}
+div.contactanosmovi{
+display: inline;
+}
+div.correomovi{
+display: inline;
+}
+div.telmovi{
+display: inline;
+}
+div.tel2movi{
+display: inline;
+}
+
+.privacidadmovi{
+position: absolute;
+margin-top: -5%;
+margin-left: -33%;
+
+}
+.terminosmovi{
+position: absolute;
+margin-top: -6%;
+margin-left: 56.5%;
+}
+.uno2{
+margin-top: 2%;
+margin-left: 40%;
+font-size: 12px;
+font-family: oswald;
+}
+.dos2{
+margin-top: 2%;
+margin-left: 35%;
+font-size: 12px;
+font-family: oswald;
+}
+.redes1movi{
+    width: 9%;
+	height: 30px;
+	margin-top: -30%;
+	margin-left: 59%;
+	}
+.redes2movi{
+    width: 9%;
+	height: 30px;
+	margin-top: -30%;
+	margin-left: 2%;
+	}
+.redes3movi{
+    width: 9%;
+	height: 30px;
+	margin-top: -30%;
+	margin-left: 2%;
+	}
+	div.red{
+	margin-top: 2%;
+	}
+	.letra{
+	font-family: oswald;
+	font-size: 14px;
+	}
+.privacidadmovi{
+display: inline;
+}
+.terminosmovi{
+display: inline;
+}
+.redes1movi{
+display: inline;
+}
+.redes2movi{
+display: inline;
+}
+.redes3movi{
+display: inline;
+}
+.uno2{
+display: inline;
+}
+.dos2{
+display: inline;
+}
+}

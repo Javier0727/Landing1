@@ -1,0 +1,521 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.cabecera{
+    height: 100vh;
+    background-image: url("../media/header2.png");
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+}
+div.brand{
+    height: 13%;
+    width: 27%;
+    background-image: url("../media/Academyblanco.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2%;
+}
+.action{
+    background-image: url("../media/btnaccion.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4px;
+}
+.actionf{
+    background-image: url("../media/btnaccion.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 155px;
+    margin-right: 20%;
+    padding: 4px;
+}
+.titls{
+    margin-top: 4%;
+    font-size: 29px;
+}
+.land{
+    margin-top: 10%;
+    font-size: 50px;
+}
+.subtitls{
+    font-size: 20px;
+}
+.subtitlsf{
+    font-size: 20px;
+}
+.letra1{
+    font-family: helvetica;
+}
+.colorletr{
+    color: white;
+}
+div.guia{
+    height: 180px;
+    width: 42%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    /* background-color: #E62E2E; */
+    /* background-image: url("../media/Academyblanco.png"); */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ajuste{
+    margin-left: 4%;
+    margin-right: 4%;
+    line-height: 25px;
+}
+.paraabj{
+    margin-bottom: 5%;
+}
+.paraarb3{
+    margin-top: 10%;
+}
+.paraarb{
+    margin-top: 5%;
+}
+.paraarb2{
+    margin-top: -100px;
+}
+.paraabj2{
+    margin-bottom: 3%;
+}
+.izqrda{
+    width: 49.5%;
+    height: 383px;
+    float: left;
+    background-image: url("../media/quees.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.derch{
+    width: 49.5%;
+    height: 383px;
+    float: right;
+    background-image: url("../media/porque.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.acomodo{
+    margin-top: 3%;
+}
+.acomodo2{
+    margin-bottom: 37%;
+}
+.planes{
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    height: 500px;
+}
+img[alt=Proximamente]{
+    width: 98vw;
+}
+.mentores{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    height: 500px;
+    margin-top: 5%;
+}
+.mentores2{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    height: 500px;
+    margin-top: -5%;
+}
+div.alejandro{
+    margin-left: 20%;
+    width: 80%;
+    height: 350px;
+    background-image: url("../media/Alejandro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+div.cesar{
+    margin-left: 12%;
+    width: 80%;
+    height: 350px;
+    background-image: url("../media/Cesar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    
+}
+div.cintia{
+    margin-left: 3%;
+    width: 80%;
+    height: 350px;
+    background-image: url("../media/cintia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    
+}
+div.dremit{
+    margin-left: 20%;
+    width: 80%;
+    height: 350px;
+    background-image: url("../media/dremit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+div.maciel{
+    margin-left: 12%;
+    width: 80%;
+    height: 350px;
+    background-image: url("../media/maciel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+div.javier{
+    margin-left: 3%;
+    width: 80%;
+    height: 350px;
+    background-image: url("../media/javier.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.boton{
+    background-image: url("../media/boton2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+}
+.boton2{
+    background-image: url("../media/btnaccion.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+    padding: 0px 10px 10px 10px;
+}
+.noestilo{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.planac{
+    padding-top: 20%;
+}
+.mas{
+    margin-top: 29%;
+    color: white;
+    font-size: 20px;
+    margin-left: 4%;
+}
+.unete{
+    width: 80%;
+    height: 500px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    background-image: url("../media/c1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.infoa{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+.info{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    height: 700px;
+}
+.pie{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    height: 200px;
+}
+.info2{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    height: 700px;
+}
+.izq2{
+    width: 100%;
+    float: left;
+    /* background-color: blue; */
+}
+.der2 {
+    width: 100%;
+    float: right;
+    /* background-color: red; */
+}
+.izq3{
+    width: 95%;
+    height: 500px;
+    float: left;
+    /* background-color: yellow; */
+}
+der3{
+    width: 95%;
+    height: 500px;
+    float: right;
+    /* background-color: green; */
+}
+.leftt{
+    width: 100%;
+    height: 100%;
+    float: left;
+    /* background-color: red; */
+}
+.left2{
+    margin-left: 5%;
+}
+.rightt{
+    width: 100%;
+    height: 100%;
+    float: left;
+    /* background-color: blue; */
+}
+.carousel-control.right{
+    background-image: none;
+}
+.carousel-control.left{
+    background-image: none;
+}
+div.acomododesk{
+    display: initial;
+}
+div.acomodomobil{
+    display: none;
+}
+.acomodoplans{
+    margin-left: 5%;
+}
+img[class=acomodoplans]{
+    width: 18%;
+    max-width: 100%;
+}
+.mensaje{
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.codigo{
+    position: absolute;
+    top: 4%;
+    left: 85%;
+    background-color: #25C9DB;
+    padding: 1%;
+}
+@media (max-width: 768px){
+    img[class=acomodoplans]{
+        width: 40%;
+    }
+    div.guia{
+        height: 180px;
+        width: 80%;
+        margin-bottom: 15%;
+    }
+    div.acomododesk{
+        display: none;
+    }
+    div.acomodomobil{
+        display: initial;
+    }
+    .que{
+        background-image: url("../media/quees.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin-bottom: 2%;
+    }
+    .por{
+        background-image: url("../media/porque.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+    }
+    .acomomob{
+        margin-top: 9%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .planes{
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        height: 400px;
+    }
+    .mentormob{
+        -webkit-column-count: 2; /* Chrome, Safari, Opera */
+        -moz-column-count: 2; /* Firefox */
+        column-count: 2;
+        height: 210px;
+    }
+    .plan1{
+        margin-left: 0%;
+        width: 85%;
+        height: 400px;
+        background-image: url("../media/Plan1.png");
+        background-size: 175px 450px;
+    }
+    .plan2{
+        margin-left: 0%;
+        width: 85%;
+        height: 400px;
+        background-size: 175px 450px;
+        background-image: url("../media/Plan2.png");
+    }
+    .plan3{
+        margin-left: 0%;
+        width: 85%;
+        height: 400px;
+        background-size: 175px 450px;
+        background-image: url("../media/Plan3.png");
+    }
+    .plan4{
+        margin-left: 0%;
+        width: 85%;
+        height: 400px;
+        background-size: 175px 450px;
+        background-image: url("../media/Plan4.png");
+    }
+    .titls{
+        font-size: 20px;
+    }
+    .planacmob{
+        padding-top: 30%;
+    }
+    .planacmob2{
+        padding-top: 26%;
+    }
+    .planacmob3{
+        padding-top: 17%;
+    }
+    .mas2{
+        margin-left: 5px;
+        margin-top: 26%;
+        font-size: 16px;
+    }
+    .mas3{
+        margin-left: 5px;
+        margin-top: 10%;
+        font-size: 16px;
+    }
+    .mas4{
+        margin-left: 5px;
+        margin-top: 5%;
+        font-size: 16px;
+    }
+    .paraarb3{
+        margin-top: 1%;
+    }
+    .proxi{
+        font-size: 40px;
+        line-height: 65vh;
+    }
+    .prox{
+        height: 70vh;
+    }
+    div.brand{
+        width: 40%;
+    }
+    .reacomomob{
+        margin-bottom: 30%;
+    }
+    div.alejandro{
+        margin-left: 20%;
+        width: 85%;
+        height: 200px;
+        background-image: url("../media/Alejandro.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        max-width: 100%;
+    }
+    div.cesar{
+        margin-left: 8%;
+        width: 85%;
+        height: 200px;
+        background-image: url("../media/Cesar.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        max-width: 100%;
+        
+    }
+    div.cintia{
+        margin-left: 20%;
+        width: 85%;
+        height: 200px;
+        background-image: url("../media/cintia.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        max-width: 100%;
+        
+    }
+    div.dremit{
+        margin-left: 20%;
+        width: 85%;
+        height: 200px;
+        background-image: url("../media/dremit.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        max-width: 100%;
+    }
+    div.maciel{
+        margin-left: 8%;
+        width: 85%;
+        height: 200px;
+        background-image: url("../media/maciel.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    div.javier{
+        margin-left: 8%;
+        width: 85%;
+        height: 200px;
+        background-image: url("../media/javier.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        max-width: 100%;
+    }
+    .rightt{
+        display: none;
+    }
+    img.visto{
+        width: 100%;
+    }
+    img.recono{
+        width: 100%;
+    }
+    .subtitlsf{
+        font-size: 15px;
+        margin-left: -5px;
+    }
+    .codigo{
+        top: 3%;
+        left: 53%;
+    }
+}

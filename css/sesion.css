@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("../media/back.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+    overflow: hidden;
+}
+#navegacion{
+    margin-top: 10px; 
+    margin-left: 80%;
+} 
+div.caja1{
+    width: 720px;  
+   height: 600px; 
+   margin-top: auto;
+   margin-left:auto;
+   margin-bottom: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+.caja2{
+    background-image: url("../bg1.png"); 
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    max-width: 100%; /* Con esto se arregla el responsive del background */
+
+}
+div#bgc{
+    width: 450px;
+    margin: auto;    
+    display: table-cell;
+    vertical-align: middle;
+}
+.espaciado{
+    line-height: 35px;
+}
+.espaciado1{
+    margin-bottom: -20px;
+}
+.trans{
+    background: transparent;
+}
+.space{
+    margin-left: 40px;
+}
+.spaceabj{
+    line-height: 90px;
+}
+.tryal{
+    line-height: 70px;
+}
+.tam{
+    font-size: 20px;
+}
+.tam2{
+    font-size: 25px;
+}
+.position{
+    margin-left: 20%;
+}
+/*Esto es para el cambio de tamaño del boton 1  */
+.cambio1{
+    height: 30px;
+    margin-left: 40px;
+}
+/*Esto es para el cambio de tamaño del boton 2  */
+.cambio2{
+    height: 25px;
+}
+span.boton22{
+    width: 130px;
+    background-image: url("../media/boton2.png");
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position:  center;
+    padding: 6px 12px;
+}
+div.boton22 a{
+    margin-left: 30px;
+    /* text-decoration-style: none; */
+}
+ .decoracion{
+    text-decoration-style: none; 
+    color: white;
+}
+.decoracion2{
+    text-decoration-style: none; 
+    color: black;
+    margin-left: 12px;
+}
+.decoracion2:hover{
+     text-decoration: none;
+     color: red; 
+}
+.decoracion:hover{
+     text-decoration: none;
+     color: white;
+} 
+input[type="date"]{
+     width: 85px;
+     background-color: white;
+}
+.acomodo1{
+   margin-bottom: 20px;
+}
+.centradoop{
+    margin-left: 50px;
+}
+.rojo{
+    color: red;
+    font-size: 20px;
+}
+.acomodo2{
+    margin-left: 10px;
+}
+.acomodo3{
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.tama{
+    margin-left: 86%;
+}
+@media (max-width: 768px){
+    .tama{
+        margin-left: 70%;
+    }
+    .espaciado{
+        line-height: 20px;
+    }
+    .tam2{
+        font-size: 20px;
+    }
+    .tam{
+        font-size: 15px;
+    }
+    div.caja1{
+        height: 400px;
+        overflow: hidden;
+    }
+     #navegacion{
+        margin-left: 40%;
+    } 
+    div.caja1{
+        margin-top: 90px;
+    }
+    .acomodo2{
+        margin-left: 15px;
+    }
+    .acomodo3{
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
+    input[type="password"], input[type="email"]{
+        width: 240px;
+    }
+    .centradoop{
+        margin-bottom: 0px;
+    }
+    .acomodobtn{
+        margin-left: 50%;
+    }
+}

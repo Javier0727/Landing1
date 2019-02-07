@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("../media/back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+div.caja1{
+    width: 720px;  
+   height: 600px; 
+    margin-top: 1%;
+   margin-left:auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: center;   
+   align-items: center;
+} 
+.caja2{
+    background-color: white;
+    max-width: 100%;
+}
+img[alt=guia]{
+    height: 50%;
+    width: 70%;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: 300px;
+}
+.carousel-control.right{
+    background-image: none;
+}
+.carousel-control.left{
+    background-image: none;
+}
+div#bgc{
+    background: transparent;
+    width: 400px;
+     height: 400px; 
+    margin: auto;    
+    display: table-cell;
+    vertical-align: middle;
+     /* line-height: 40px;  */
+}
+.espaciado{
+    line-height: 50px;
+}
+.trans{
+    background: transparent;
+}
+.space{
+    margin-left: 40px;
+}
+.spaceabj{
+    line-height: 90px;
+}
+.tryal{
+    line-height: 70px;
+}
+.tam{
+    font-size: 20px;
+}
+.tam2{
+    font-size: 25px;
+}
+.position{
+    margin-left: 20%;
+}
+
+.texto{
+    text-align: center;
+}
+div.boton22{
+    /* background-color: red; */
+    background-image: url("../media/boton2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% center;
+}
+div.boton22 a{
+    text-decoration-style: none;
+    color: white;
+}
+.car{
+    width: 500px;
+}
+.carm{
+display: none;
+}
+@media (max-width: 768px){
+    .espaciado{
+        line-height: 20px;
+    }
+    .tam2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    div.car{
+        display: none;
+    }
+    .carm{
+        display: initial;
+        width: 90%;
+        height: 400px;
+    }
+    img[alt=guiam]{
+        height: 40%;
+        width: 95%;
+    }
+    .tam{
+        font-size: 15px;
+    }
+    div.caja1{
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+     #navegacion{
+    margin-left: 40%;
+    } 
+    .position{
+        margin-left:35%;
+    }
+    .estrellas{
+        text-align: left;
+    }
+    input.form-control{
+        display: inline;
+        width: 93%;
+    }
+    .acomodo1{
+        margin-left: 0px;
+    }
+    .acomodo2{
+        margin-left: 12px;
+    }
+    input[type="date"]{
+        margin-left: 0%;
+        width: 50px;
+    }
+    .decoracion2{
+        margin-left: 0px;
+    }
+    .centradoop{
+        margin-left: 90px;
+    }
+    .tama{
+        margin-left: 90%;
+    }
+    img[alt=guia]{
+        height: 40%;
+        width: 40%;
+    }
+}

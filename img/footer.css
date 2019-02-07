@@ -1,0 +1,221 @@
+/* CSS Document */
+
+/*foter*/
+  footer{
+   margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #CC0033;
+}
+	.redes1{
+	width: 3%;
+	height: 35px;
+	margin-left: -12%;
+	margin-top: 3%;
+	font-size: 10px;
+	}
+	.redes2{
+	width: 3%;
+	height: 35px;
+	margin-left: 1%;
+	margin-top: 3.1%;
+	font-size: 10px;
+	}
+	.redes3{
+	width: 3%;
+	height: 35px;
+	margin-left: 1%;
+	margin-top: 3.1%;
+	font-size: 10px;
+	}
+div.contacto{
+	height: 10px;
+     width: 5%;
+	font-size: 17px;
+    line-height: 19px;
+	margin-top: -3%;
+	text-align: justify;
+	font-family: aller;
+	margin-left: 12%;
+	color: white;
+}
+div.contac{
+	height: 10px;
+     width: 14%;
+	font-size: 14px;
+    line-height: 23px;
+	margin-top: 6%;
+	font-family: aller;
+	margin-left: 8%;
+	color: white;
+	}
+div.espacio{
+margin-top: -10%;
+}
+/*este aviso es de el formulario*/
+div.aviso{
+margin-top: 1%;
+margin-left: -11%;
+font-size: 12px;
+font-family: aller;
+color: white;
+text-align: center;
+	}
+div.priv{
+font-size: 14px;
+font-family: aller;
+margin-top: -3%;
+line-height: 68%;
+margin-left: -13%;
+color: white;
+text-align: center;
+}
+.color{
+color: white;
+}
+.ablanco{
+color: #FFFFFF;
+}
+div.estas{
+	font-size: 15px;
+	margin-top: -4%;
+	font-family: aller;
+	margin-left: 68%;
+	color: white;
+}
+.registrate2{
+	width: 26%;
+	height: 38px;
+	margin-left: 64%;
+	margin-top: 2%;
+	font-size: 10px;
+	}
+div.emp{
+display: inline;
+}
+div.textomovi{
+display: none
+}
+div.empmovi{
+display: none;
+}
+div.telefonos{
+display: none;
+}
+.redes10{
+display: none;
+}
+.redes20{
+display: none;
+}
+.redes30{
+display: none;
+}
+div.contactomov{
+display: none;
+}
+
+@media (max-width 768px){
+  footer{
+   margin-top: 70px;
+    width: 100%; 
+    height: 200px;
+    background-color: #CC0033;
+}
+div.contactomov{
+	font-size: 13px;
+	margin-top: 6%;
+	text-align: justify;
+	font-family: aller;
+	margin-left: -64%;
+	color: white;
+}
+div.contacto{
+display: none;
+}
+div.contactomov	{
+display: inline;
+}
+div.estas{
+	font-size: 15px;
+	margin-top: -14%;
+	font-family: aller;
+	margin-left: 25%;
+	color: white;
+}
+.registrate2{
+	width: 48%;
+	height: 26px;
+	margin-top: -10%;
+	margin-left: 26%;
+	font-size: 10px;
+}
+div.telefonos{
+font-family: aller;
+font-size: 9px;
+margin-top: 2%;
+margin-left: 2%;
+color: white;
+}
+.redes10{ 
+	width: 8%;
+	height: 35px;
+	margin-left: 4%;
+	margin-top: 13%;
+	font-size: 10px;
+	}
+	.redes10{
+	display: inline;
+	}
+	.redes20{
+	width: 8%;
+	height: 35px;
+	margin-left: -20%;
+	margin-top: 13%;
+	font-size: 10px;
+	}
+	.redes20{
+	display: inline;
+	}
+	.redes30{
+	width: 8%;
+	height: 35px;
+	margin-left: -20%;
+	margin-top: 13%;
+	font-size: 10px;
+	}
+	
+	.redes30{
+	display: inline;
+	}
+.redes1{
+	display: none;
+	}
+	.redes2{
+	display: none;
+	}
+	.redes3{
+	display: none;
+	}
+div.telefonos{
+display: inline;
+}
+div.contac{
+display: none;
+}
+div.espacio{
+display: none;
+}
+div.priv{
+font-size: 9px;
+font-family: aller;
+margin-top: -14%;
+line-height: 68%;
+margin-left: 52%;
+color: white;
+text-align: center;
+}
+.color{
+color: white;
+}
+}
